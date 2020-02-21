@@ -1,0 +1,126 @@
+h2{
+    color:red;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: gainsboro;    
+}  
+
+h1{
+    text-align: center;
+}    
+
+.mi-lista{
+    font-size: 18px;
+    font-weight: bold;
+}    
+
+h1{
+    font-size: 36px;
+}     
+
+p{
+    font-style: italic ;
+}
+
+.negrita {
+    font-weight: :bold;
+}
+
+.precio {
+    background-color: gold;}
+
+#productos img{
+    width: 200px
+}    
+
+
+#contacto h1{
+    color: red;
+text-align: center;
+
+}
+
+input [type=text], input [type=email] , select{
+    width: 215px;
+    height: 20px;
+    font-size: 16px;
+}
+
+.boton { 
+    background-color: red;
+    font-style: italic;
+    color: white;
+    border: 1px solid mediumslateblue;
+    width: 80px;
+    height: 25px;
+    
+}
+
+form span {
+    color: red;
+}
+
+input:focus
+{
+ background-color: red;
+}
+
+.boton:hover {
+    background-color: seagreen;
+    color: yellow;
+}
+
+/* menu */
+ul.menu
+{
+    background-color: green;
+    overflow: hidden; 
+}
+
+ul.menu li
+{
+ width: 200px;   
+ float: left;
+ list-style-type: none;
+ text-align: center;
+ vertical-align: middle;
+
+}
+
+ul.menu li a
+{
+ display: block;
+ text-decoration: none;
+ color: white;
+ padding: 20px ;
+ text-transform: uppercase;
+ 
+}
+
+
+ul.menu li a:hover
+{
+ background-color: wheat;
+ color: red;
+}
+
+
+
+.contacto
+{
+    clear: both;
+}
+
+@media (max-width: 768px)
+{
+    ul.menu li
+    {
+      float: none;
+      width: 100%;
+    }
+}

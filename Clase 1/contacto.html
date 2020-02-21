@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contacto</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/estilos.css'>
+    <script src='main.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="css/fontawesome/css.min.css" rel="stylesheet">
+    <link href="css/fontawesome/css/all.min.css" rel="stylesheet">
+
+    
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html" title="Ir a Inicio">Inicio</a></li>
+            <li><a href="menu.html" title="Ir a Quienes Somos">¿Quienes somos?</a></li>
+            <li><a href="contacto.html" title="Contacto"><i class="fas fa-user"></i>Contacto</a></li>
+        </ul>
+
+
+
+    </nav>
+</header>
+
+<section class="contacto" id="contacto">
+    <h1>Escribinos, te respondemos a la brevedad</h1>
+    
+    <form action="" method="POST">
+        <!--name para backend-->
+        
+        <div>
+
+        <label for="txtNombre">Nombre: <span>*</span></label>
+        <input type="text" name="txtNombre" id="txtNombre" required>
+
+        </div>
+
+        <div>
+
+        <label for="txtCorreo">Correo: <span>*</span></label>
+        <input type="email" name="txtCorreo" id="txtCorreo" required>
+
+        </div>
+
+
+        <div>
+
+        <label for="txtTelefono">Telefono: <span>*</span> </label>
+        <input type="text" name="txtTelefono" id="txtTelefono" required placeholder="Ej.4838">
+
+        </div>
+
+        <div>
+            <label for="lstPais">Pais de Origen</label>
+            <select name="lstPais" id="lstPais">
+                <option value="" disabled selected>Seleccionar</option>
+                <optgroup label="Sudamerica">
+                    <option value="Ar">Argentina</option>
+                    <option value="Br">Brasil</option>
+                    <option value="Co">Colombia</option>
+                </optgroup>
+                <optgroup label="Europa">
+                    <option value="Es">España</option>
+                    <option value="Fr">Francia</option>
+                    <option value="Al">Alemania</option>
+                    <option value="It">Italia</option>
+                </optgroup>
+            </select>
+        </div>
+
+
+<div>
+    <label for="lstAsunto">Asunto <span>*</span></label>
+    <select name="lstAsunto" id="lstAsunto">
+        <option value=""disabled selected>Seleccionar</option>
+        <option value="ventas">Ventas</option>
+        <option value="Webmaster">Webmaster</option>
+        <option value="soporte">Soporte</option>
+    </select>
+</div>
+
+        <div>
+        
+        <label for="">Mensaje</label>
+        <textarea name="txtMensaje" id="txtMensaje" cols="150" rows="15" required></textarea>
+
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar" id="btnEnviar" name="btnEnviar" class="boton" >
+        </div>
+
+        <div>
+            <input type="checkbox" name="chkPoliticas" id="chkPoliticas">
+            <label for="chkPoliticas">Acepto las politicas</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="chkNewsLetter" id="chkNewsLetter">
+            <label for="chkNewsLetter">Deseo recibir novedades</label>
+        </div>
+
+        <div>
+            <label for="">Es mayor de edad</label>
+            <input type="radio" name="optMayor" id="optMayorSi" value="Si"><label for="optMayorSi">Si</label>
+            <input type="radio" name="optMayor" id="optMayorNo" value="No"><label for="optMayorNo">No</label>
+        </div>
+
+        
+
+     
+
+
+
+
+
+
+    </form>
+</section>
+
+<footer></footer>
+
+</body>
+</html>
